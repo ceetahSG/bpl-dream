@@ -1,0 +1,164 @@
+[
+  {
+    "playerName": "Virat Kohli",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c616517/virat-kohli.jpg?d=low&p=gthumb",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm medium",
+    "battingStyle": "Right-hand",
+    "price": 9000000
+  },
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c351919/shakib-al-hasan.jpg?d=low&p=gthumb",
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Left-arm orthodox",
+    "battingStyle": "Left-hand",
+    "price": 5000000
+  },
+  {
+    "playerName": "Litton Das",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c351896/litton-das.jpg?d=low&p=gthumb",
+    "origin": "Bangladesh",
+    "playerType": "Wicketkeeper-Batsman",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Right-hand",
+    "price": 3500000
+  },
+  {
+    "playerName": "Mehidy Hasan Miraz",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c616461/mehidy-hasan-miraz.jpg?d=low&p=gthumb",
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Right-hand",
+    "price": 4500000
+  },
+  {
+    "playerName": "Najmul Hossain Shanto",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c616472/najmul-hossain-shanto.jpg?d=low&p=gthumb",
+    "origin": "Bangladesh",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Left-hand",
+    "price": 3200000
+  },
+  {
+    "playerName": "Towhid Hridoy",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c616468/towhid-hridoy.jpg?d=low&p=gthumb",
+    "origin": "Bangladesh",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Right-hand",
+    "price": 2500000
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c846059/babar-azam.jpg?d=low&p=gthumb",
+    "origin": "Pakistan",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Right-hand",
+    "price": 8500000
+  },
+  {
+    "playerName": "Ben Stokes",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c717787/ben-stokes.jpg?d=low&p=gthumb",
+    "origin": "England",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm fast-medium",
+    "battingStyle": "Left-hand",
+    "price": 8200000
+  },
+  {
+    "playerName": "Jos Buttler",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c848523/jos-buttler.jpg?d=low&p=gthumb",
+    "origin": "England",
+    "playerType": "Wicketkeeper-Batsman",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Right-hand",
+    "price": 8500000
+  },
+  {
+    "playerName": "Joe Root",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c717792/joe-root.jpg?d=low&p=gthumb",
+    "origin": "England",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Right-hand",
+    "price": 6500000
+  },
+  {
+    "playerName": "Jofra Archer",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c848536/jofra-archer.jpg?d=low&p=gthumb",
+    "origin": "England",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm fast",
+    "battingStyle": "Right-hand",
+    "price": 7800000
+  },
+  {
+    "playerName": "Harry Brook",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c848570/harry-brook.jpg?d=low&p=gthumb",
+    "origin": "England",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm medium",
+    "battingStyle": "Right-hand",
+    "price": 6000000
+  },
+  {
+    "playerName": "Mark Wood",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c617415/mark-wood.jpg?d=low&p=gthumb",
+    "origin": "England",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm fast",
+    "battingStyle": "Right-hand",
+    "price": 5500000
+  },
+  {
+    "playerName": "Ravindra Jadeja",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c616520/ravindra-jadeja.jpg?d=low&p=gthumb",
+    "origin": "India",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Left-arm orthodox",
+    "battingStyle": "Left-hand",
+    "price": 7500000
+  },
+  {
+    "playerName": "Rishabh Pant",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c616524/rishabh-pant.jpg?d=low&p=gthumb",
+    "origin": "India",
+    "playerType": "Wicketkeeper-Batsman",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Left-hand",
+    "price": 7800000
+  },
+  {
+    "playerName": "Suryakumar Yadav",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c846028/suryakumar-yadav.jpg?d=low&p=gthumb",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Right-hand",
+    "price": 7200000
+  },
+  {
+    "playerName": "Sanju Samson",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c846035/sanju-samson.jpg?d=low&p=gthumb",
+    "origin": "India",
+    "playerType": "Wicketkeeper-Batsman",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Right-hand",
+    "price": 5800000
+  },
+  {
+    "playerName": "Shubman Gill",
+    "playerImg": "https://static.cricbuzz.com/a/img/v1/i1/c616515/shubman-gill.jpg?d=low&p=gthumb",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Right-hand",
+    "price": 6800000
+  }
+]
