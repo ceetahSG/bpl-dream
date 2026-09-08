@@ -1,9 +1,4 @@
-import React, {
-  use,
-  useState,
-  type Dispatch,
-  type SetStateAction,
-} from "react";
+import { use, useState, type Dispatch, type SetStateAction } from "react";
 import type { Iplayer } from "../../types/player";
 import AvailablePlayers from "./AvailablePlayers";
 import SelectedPlayers from "./SelectedPlayers";
@@ -21,8 +16,8 @@ const Players = ({ playersPromise, coin, setCoin }: PlayersProps) => {
   //     setButtonType(type);
   //   };
   return (
-    <div>
-      <div className="container flex justify-between mx-auto gap-4 mb-2">
+    <div className="px-4 pb-8 sm:px-6 lg:px-8">
+      <div className="container mx-auto mb-2 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         {buttonType === "available" ? (
           <h2 className="font-bold text-xl">Available Players</h2>
         ) : (
@@ -31,12 +26,14 @@ const Players = ({ playersPromise, coin, setCoin }: PlayersProps) => {
 
         <div>
           <button
+            type="button"
             onClick={() => setButtonType("available")}
             className={`btn ${buttonType === "available" ? "btn-success" : ""} rounded-r-none`}
           >
             Available
           </button>
           <button
+            type="button"
             onClick={() => setButtonType("selected")}
             className={`btn ${buttonType === "selected" ? "btn-success" : ""} rounded-l-none`}
           >

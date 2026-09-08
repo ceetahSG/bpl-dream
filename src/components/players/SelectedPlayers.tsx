@@ -16,9 +16,11 @@ const SelectedPlayers = ({
 }: ISelectedPlayersProps) => {
   if (selectedPlayers.length === 0) {
     return (
-      <div className="container text-center mx-auto">
-        <h2 className="text-3xl">No players selected yet</h2>
-        <h3>Go to Available tab to select players</h3>
+      <div className="container mx-auto px-4 text-center">
+        <h2 className="text-2xl sm:text-3xl">No players selected yet</h2>
+        <h3 className="mt-2 text-sm sm:text-base">
+          Go to Available tab to select players
+        </h3>
       </div>
     );
   }

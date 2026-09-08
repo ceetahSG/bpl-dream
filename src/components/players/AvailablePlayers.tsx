@@ -18,7 +18,7 @@ const AvailablePlayers = ({
   SetSelectedPlayers,
 }: Iprops) => {
   return (
-    <div className="container mx-auto grid grid-cols-4 gap-10 my-10">
+    <div className="container mx-auto my-6 grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:my-10 lg:grid-cols-3 xl:grid-cols-4">
       {players.map((player: Iplayer, ind: number) => {
         return (
           <PlayerCard

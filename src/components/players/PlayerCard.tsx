@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import type { Dispatch, SetStateAction } from "react";
 import type { Iplayer } from "../../types/player";
 import { FaFlag, FaUser } from "react-icons/fa";
@@ -34,7 +34,7 @@ const PlayerCard = ({
   return (
     <div className="group overflow-hidden rounded-2xl border border-base-300 bg-base-100 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
       {/* Player Image */}
-      <figure className="relative h-64 overflow-hidden bg-linear-to-br from-primary/10 to-secondary/10">
+      <figure className="relative h-56 overflow-hidden bg-linear-to-br from-primary/10 to-secondary/10 sm:h-64">
         <img
           src={player.playerImg}
           alt={player.playerName}
@@ -101,6 +101,7 @@ const PlayerCard = ({
           </div>
 
           <button
+            type="button"
             onClick={() => handleSelectedPlayer()}
             disabled={isSelected}
             className="btn btn-primary rounded-xl px-5 shadow-md transition-all hover:scale-105"

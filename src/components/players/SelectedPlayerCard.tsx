@@ -26,10 +26,10 @@ const SelectedPlayerCard = ({
   };
 
   return (
-    <div className="container mx-auto">
-      <div className="flex items-center gap-4 rounded-xl border border-white/10 bg-white/5 p-3 shadow-md backdrop-blur-sm">
+    <div className="container mx-auto px-4 py-2 sm:px-6">
+      <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-3 shadow-md backdrop-blur-sm sm:gap-4">
         {/* Player Image */}
-        <div className="h-20 w-20 shrink-0 overflow-hidden rounded-lg bg-gray-800">
+        <div className="h-16 w-16 shrink-0 overflow-hidden rounded-lg bg-gray-800 sm:h-20 sm:w-20">
           <img
             src={player.playerImg}
             alt={player.playerName}
