@@ -1,12 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
+import type { Dispatch, SetStateAction } from "react";
 import type { Iplayer } from "../../types/player";
 import { FaFlag, FaUser } from "react-icons/fa";
+import { toast } from "react-toastify";
+interface IPlayerCardProps {
+  player: Iplayer;
+  coin: number;
+  setCoin: Dispatch<SetStateAction<number>>;
+  selectedPlayers: Iplayer[];
+  SetSelectedPlayers: Dispatch<SetStateAction<Iplayer[]>>;
+}
 
-const PlayerCard = ({ player }: { player: Iplayer }) => {
+const PlayerCard = ({
+  player,
+  coin,
+  setCoin,
+  selectedPlayers,
+  SetSelectedPlayers,
+}: IPlayerCardProps) => {
+  const [isSelected, setIsSelected] = useState(false);
+  const handleSelectedPlayer = () => {
+    const newCoin = coin - player.price;
+    if (newCoin < 0) {
+      setIsSelected(false);
+      toast.error("Not enough coin");
+    } else {
+      setCoin(newCoin);
+      setIsSelected(true);
+      toast.success(`${player.playerName} is purchased successfully.`);
+      SetSelectedPlayers([...selectedPlayers, player]);
+    }
+  };
   return (
     <div className="group overflow-hidden rounded-2xl border border-base-300 bg-base-100 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
       {/* Player Image */}
-      <figure className="relative h-64 overflow-hidden bg-gradient-to-br from-primary/10 to-secondary/10">
+      <figure className="relative h-64 overflow-hidden bg-linear-to-br from-primary/10 to-secondary/10">
         <img
           src={player.playerImg}
           alt={player.playerName}
@@ -72,8 +100,12 @@ const PlayerCard = ({ player }: { player: Iplayer }) => {
             </p>
           </div>
 
-          <button className="btn btn-primary rounded-xl px-5 shadow-md transition-all hover:scale-105">
-            Buy Now
+          <button
+            onClick={() => handleSelectedPlayer()}
+            disabled={isSelected}
+            className="btn btn-primary rounded-xl px-5 shadow-md transition-all hover:scale-105"
+          >
+            {isSelected === true ? "Selected" : "Choose Player"}
           </button>
         </div>
       </div>

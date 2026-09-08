@@ -1,7 +1,7 @@
 import { FaCoins } from "react-icons/fa";
 import Logo from "../assets/logo.png";
 
-const Nav = () => {
+const Nav = ({ coin }: { coin: number }) => {
   return (
     <nav>
       <div className="container mx-auto flex justify-between">
@@ -13,7 +13,7 @@ const Nav = () => {
           <li>Schedule</li>
           <button className="rounded-xl border px-5 py-2 flex items-center gap-2">
             {" "}
-            0 Coins <FaCoins />{" "}
+            {coin} <FaCoins />{" "}
           </button>
         </ul>
       </div>
